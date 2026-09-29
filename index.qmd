@@ -1,0 +1,54 @@
+---
+title: "9041 Assignment 2"
+author: Selena Esteves,
+date: today
+format: 
+    html:
+      toc: true
+      code-fold: true
+      code-summary: "Show code"
+      df-print: paged
+execute:
+    echo: false
+    warning: false
+---
+
+```{r}
+source("lab_2_r_script.R")
+```
+
+## Intro
+
+## Methods
+
+
+### Participants
+
+A total of `r sample_size` participants were included in this study, including 50 who identified as female and 13 as male.
+
+```{r}
+Gender_Relationship_Status_Demo
+```
+
+### Measures
+
+The Experiences in Close Relationships Scale (ECR) is a shortened version of the Attachment-Related Anxiety subscale, with only nine items that tracked most strongly to the anxiety subscale (Sible et al., 2005). A Cronbach's α = `r round(ecr_scores$alpha, 2)` was calculated. To measure social anxiety, the Social Interaction Anxiety Scale (SIAS) was used. The analysis showed a Cronbach's α = `r round(sa_scores$alpha, 2)`. Finally, the Rosenberg Self-Esteem Scale (RSE) was used to capture a measure of participant self esteem (Cronbach's α = `r round(sest_scores$alpha, 2)`). 
+
+### Data Analysis Strategy
+
+The "psych" package in R was used to score participant responses. A key was created for each psychological measure using the "scoreItems()" function. Reverse scoring was used for items items 5, 9, and 11 in the SIAS and items 2, 5, 6, 8, and 9 in the RES.
+
+## Results
+
+The below table is a descriptive analysis of participant scores for the Experiences in Close Relationships Scale (ECR), the Social Interaction Anxiety Scale (SIAS), and the Rosenberg Self Esteem Scale (RSE). The mean scores across all subjects for the ECR, SIAS, and RSE were `r round(summary$mean[1], 2)`, `r round(summary$mean[2], 2)`, and `r round(summary$mean[3], 2)`, respectively.
+
+
+```{r}
+Summary_Table
+```
+
+When only considering female participants, as shown in the second table, the mean scores for the ECR, SIAS, and RSE were `r round(filtered.summary$mean[1], 2)`, `r round(filtered.summary$mean[2], 2)`, and `r round(filtered.summary$mean[3], 2)`,  respectively.
+
+```{r}
+Filtered_Summary_Table
+```

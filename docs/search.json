@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html#methods",
+    "href": "index.html#methods",
+    "title": "9041 Assignment 2",
+    "section": "Methods",
+    "text": "Methods\n\nParticipants\nA total of 63 participants were included in this study, including 50 who identified as female and 13 as male.\n\n\n\n\n\n\n\n\nParticipant Relationship Status by Gender\n\n\nGender_Marker\nDivorced\nIn a relationship\nMarried\nNever been in a relationship\nPrefer not to say\n\n\n\n\nFemale\n0\n43\n4\n1\n2\n\n\nMale\n1\n11\n0\n0\n1\n\n\n\n\n\n\n\n\n\nMeasures\nThe Experiences in Close Relationships Scale (ECR) is a shortened version of the Attachment-Related Anxiety subscale, with only nine items that tracked most strongly to the anxiety subscale (Sible et al., 2005). A Cronbach’s α = 0.94 was calculated. To measure social anxiety, the Social Interaction Anxiety Scale (SIAS) was used. The analysis showed a Cronbach’s α = 0.9. Finally, the Rosenberg Self-Esteem Scale (RSE) was used to capture a measure of participant self esteem (Cronbach’s α = 0.85).\n\n\nData Analysis Strategy\nThe “psych” package in R was used to score participant responses. A key was created for each psychological measure using the “scoreItems()” function. Reverse scoring was used for items items 5, 9, and 11 in the SIAS and items 2, 5, 6, 8, and 9 in the RES."
+  },
+  {
+    "objectID": "index.html#results",
+    "href": "index.html#results",
+    "title": "9041 Assignment 2",
+    "section": "Results",
+    "text": "Results\nThe below table is a descriptive analysis of participant scores for the Experiences in Close Relationships Scale (ECR), the Social Interaction Anxiety Scale (SIAS), and the Rosenberg Self Esteem Scale (RSE). The mean scores across all subjects for the ECR, SIAS, and RSE were 3.4, 2.39, and 2.23, respectively.\n\n\n\n\n\n\n\n\nCombined Anxiety and Self Esteem Scores\n\n\nScales\nmean\nmedian\nsd\nrange\nalphas\n\n\n\n\nExperiences_in_Close_Relationships_Scale\n3.398589\n3.111111\n1.6209543\n5.888889\n0.94\n\n\nSocial_Interaction_Anxiety_Scale\n2.388889\n2.300000\n0.6987572\n3.000000\n0.90\n\n\nRosenberg_Self_Esteem_Scale\n2.234921\n2.200000\n0.5074156\n2.200000\n0.85\n\n\n\n\n\n\n\nWhen only considering female participants, as shown in the second table, the mean scores for the ECR, SIAS, and RSE were 3.43, 2.44, and 2.24, respectively.\n\n\n\n\n\n\n\n\nFemale Anxiety and Self Esteem Scale Scores\n\n\nScales\nmean\nmedian\nsd\nrange\nfiltered_alphas\n\n\n\n\nExperiences_in_Close_Relationships_Scale\n3.431111\n3.111111\n1.7133507\n5.888889\n0.94\n\n\nSocial_Interaction_Anxiety_Scale\n2.436000\n2.375000\n0.7211838\n3.000000\n0.90\n\n\nRosenberg_Self_Esteem_Scale\n2.240000\n2.200000\n0.5318432\n2.200000\n0.86"
+  }
+]
