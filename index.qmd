@@ -1,6 +1,6 @@
 ---
 title: "9041 Assignment 2"
-author: Payton Hayes,
+author: Payton Hayes
 date: today
 format: 
     html:
