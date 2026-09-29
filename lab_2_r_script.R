@@ -303,7 +303,6 @@ Filtered_Summary_Table <- gt(filtered.summary) |>
   )
 
 #check make sure everything renders
-
 analysis_df
 allscores.df
 summary
